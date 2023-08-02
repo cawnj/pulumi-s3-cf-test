@@ -1,0 +1,4 @@
+config:
+  pulumi-s3-cf-test:indexDocument: index.html
+  pulumi-s3-cf-test:subdomain: pulumi
+  pulumi-s3-cf-test:zoneId: 96fdd70d224c6f51215067ea7b8b95c2
