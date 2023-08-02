@@ -49,3 +49,4 @@ const dnsRecord = new cloudflare.Record("dnsRecord", {
 // Exports
 export const bucketName = bucket.id;
 export const bucketEndpoint = pulumi.interpolate`http://${bucket.websiteEndpoint}`;
+export const cfUrl = pulumi.interpolate`https://${dnsRecord.hostname}`;
