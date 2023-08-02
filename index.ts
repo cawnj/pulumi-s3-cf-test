@@ -9,7 +9,7 @@ const zoneId = config.require("zoneId");
 const subdomain = config.require("subdomain");
 
 // Create an AWS resource (S3 Bucket)
-const bucket = new aws.s3.Bucket("staticSite", {
+const bucket = new aws.s3.Bucket("static-site", {
     website: {
         indexDocument: indexDocument,
     },
