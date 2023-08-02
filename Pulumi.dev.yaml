@@ -1,4 +1,6 @@
 config:
+  cloudflare:apiToken:
+    secure: AAABALBgDscpnbNb2zRSJIbmiG7FRN7RZB3sV6cLwoABhksbUASEBQf3CHJcHL1ssYX8RewmB7uCl31OCwFHKXnWY7zpWhQL
   pulumi-s3-cf-test:indexDocument: index.html
   pulumi-s3-cf-test:subdomain: pulumi
   pulumi-s3-cf-test:zoneId: 96fdd70d224c6f51215067ea7b8b95c2
